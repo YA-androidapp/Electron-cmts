@@ -1,3 +1,13 @@
+// script.jsで定義されている合言葉を変更し、
+// このファイルが存在するディレクトリ内で
+// $ npx electron .
+// と実行して下さい。
+// （ブックマークレットのようにダイアログで入力する形だと最前面固定が解除されてしまうためソースコード中で定義する必要があった）
+
+// 合言葉を変更した後など、パッケージ化し直す場合は
+// $ npx electron-packager . BlueLightCut --platform=darwin --arch=x64 --overwrite
+// と実行して下さい。
+
 const { app, BrowserWindow, crashReporter } = require('electron')
 
 crashReporter.start({
