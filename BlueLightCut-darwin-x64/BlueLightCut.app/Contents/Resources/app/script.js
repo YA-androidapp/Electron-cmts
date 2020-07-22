@@ -1,5 +1,11 @@
 // 合言葉
 var watchword = 'qqqqq12345';
+var urlHash = location.hash;
+if (urlHash) {
+  if ('#' != urlHash) {
+    watchword = urlHash.substr(1)
+  }
+}
 
 function load() {
   setTimeout(function () {

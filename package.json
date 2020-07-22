@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/YA-androidapp/Docker-Electron/issues"
   },
-  "homepage": "https://github.com/YA-androidapp/Docker-Electron#readme"
+  "homepage": "https://github.com/YA-androidapp/Docker-Electron#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
